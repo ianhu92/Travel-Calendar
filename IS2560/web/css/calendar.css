@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-12-4, 14:08:31
+    Author     : Ian
+*/
+#main{
+    width:1200px;
+    height:700px;
+    margin:0 auto;
+}
+#tableHeader{
+    font-size: 16px;
+    padding: 20px;
+    margin:20px auto;
+    height:16px;
+    width:1200px;
+    background-color: #dddddd;
+}
+#headerLabel{
+    margin:0 0 0 30px;
+    width:130px;
+    display:inline-block;
+}
+#tableHeader a{
+    cursor:pointer;
+    //display:inline-block;
+}
+.operation{
+    border:1px solid white;
+    border-radius: 10px;
+}
+#addEventBox{
+    display:none;
+    padding:20px 20px 20px 20px;
+    background-color: #ffffff;
+    border:1px solid;
+    border-radius: 5px;
+    width:450px;
+    position:relative;
+    left:278px;
+    z-index:1;
+}
+.showEventBox{
+    display:none;
+    background-color: #ffffff;
+    border:1px solid;
+    border-radius: 5px;
+    width:450px;
+    position:relative;
+    //left:278px;
+    z-index:1;
+}
+.eventInput{
+    width:278px;
+}
+#closeEventBox{
+    position:relative;
+    left:232px;
+}
+.closeEventBox{
+    cursor:pointer;
+    position:relative;
+    left:202px;
+    //font-size:20px;
+}
+
+#calender{
+    margin:0 auto;
+    float:left;
+    //border:1px solid;
+}
+#calender td{
+    border:1px solid;
+    height:100px;
+    width:100px;
+}
+#calender th{
+    //border:1px solid;
+    height:20px;
+    width:100px;
+}
+#week6{
+    display:none;
+}
+.td p{
+    margin:0 0 0 5px;
+    display:inline-block;
+}
+.selected{
+    box-shadow: 0 0px 0 2px #2b78b1 inset;
+    
+}
+.notThisMonth{
+    background-color: #eeeeee;
+    color: #999999;
+    cursor:pointer;
+}
+.thisMonth{
+    background-color: #ffffff;
+    color: #000000;
+    cursor:auto;
+}
+#showEventBoxList{
+    float:left;
+    margin:20px 0 0 5px;
+    
+}

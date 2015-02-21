@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 1, 2014, 1:09:52 AM
+    Author     : yuezhao
+*/
+body{
+    background-image: url("http://img5.duitang.com/uploads/blog/201403/15/20140315101356_C2V8C.thumb.700_0.jpeg");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 30px;
+    color: white;
+    margin-top: 50px;
+}
+.login{
+    float: left;
+    margin: 20px;
+    margin-left: 100px;
+    background-color: #cccccc;
+    opacity: 0.8;
+    padding: 30px;
+}
+h2{
+    font-family: cursive;
+}
+table{
+    font-family: monospace;
+    font-size: 15px;
+}
+td{
+    padding: 10px;
+}
+.regist{
+    float: right;
+    margin: 20px;
+    margin-right: 100px;
+    background-color: #cccccc;
+    opacity: 0.8;
+    padding: 30px;
+}
+
